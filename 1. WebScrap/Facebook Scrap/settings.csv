@@ -1,0 +1,11 @@
+Key,Value,Remarks
+fb_email,,
+fb_password,,
+fb_login_button,//form//*[(self::input or self::button) and (@value='Log In' or @value='Log Masuk' or text()='Log In' or text()='Log Masuk')],
+post_class,rq0escxv l9j0dhe7 du4w35lb hybvsw6c ue3kfks5 pw54ja7n uo3d90p7 l82x9zwi ni8dbmo4 stjgntxs k4urcfbm sbcfpzgs,
+regex_date,"""\n(\d{1,2}\w{3}\s(\s\d{4})?)\n""",
+regex_title,"""\N{MIDDLE DOT}\n\s*\N{MIDDLE DOT}\s*(.*)\n""",
+regex_reaction,"""\n(\d+(\.\d+)?\w*)\n\\1\n""",
+regex_comment,"""(\d+)\s[Cc]omments?""",
+regex_share,"""(\d+)\s[Ss]hares?""",
+xpath,"//*[contains(@class, '{}')]",
